@@ -1,3 +1,9 @@
 # TBFF
 
-"𝙏𝙝𝙚 𝙗𝙚𝙖𝙪𝙩𝙞𝙛𝙪𝙡 𝙟𝙤𝙪𝙧𝙣𝙚𝙮 𝙤𝙛 𝙡𝙞𝙛𝙚 𝙞𝙨 𝙬𝙝𝙚𝙣 𝙬𝙚 𝙖𝙧𝙚 𝙖𝙗𝙡𝙚 𝙩𝙤 𝙨𝙝𝙖𝙧𝙚, 𝙣𝙤𝙩 𝙚𝙣𝙟𝙤𝙮 𝙞𝙩 𝙖𝙡𝙤𝙣𝙚."
+SC INI PRIBADI PUNYA SATU ORANG !
+
+LINK FB REAL : https://www.facebook.com/IMREALTAUFIQ
+
+FOLLOW AKUN IG : @REAL.TAUFIQ
+
+YANG SUDAH TAU SCNYA MOHON UNTUK TIDAK DISALAH GUNAKAN SEKIAN TERIMAKASIH.
