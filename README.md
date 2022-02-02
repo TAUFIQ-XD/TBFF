@@ -2,7 +2,7 @@
 
 𝐒𝐂 𝐈𝐍𝐈 𝐏𝐑𝐈𝐁𝐀𝐃𝐈 𝐏𝐔𝐍𝐘𝐀 𝐒𝐀𝐓𝐔 𝐎𝐑𝐀𝐍𝐆 !
 
-𝐋𝐈𝐍𝐊 𝐅𝐁 𝐑𝐄𝐀𝐋 :https://www.facebook.com/IMREALTAUFIQ
+𝐋𝐈𝐍𝐊 𝐅𝐁 𝐑𝐄𝐀𝐋: https://www.facebook.com/IMREALTAUFIQ
 
 𝐅𝐎𝐋𝐋𝐎𝐖 𝐀𝐊𝐔𝐍 𝐈𝐆 : @𝐑𝐄𝐀𝐋.𝐓𝐀𝐔𝐅𝐈𝐐
 
