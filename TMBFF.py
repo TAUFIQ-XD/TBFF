@@ -51,7 +51,7 @@ U = '\x1b[1;95m' # UNGU
 O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
 my_color = [
- P, M, H, K, B, U, O, N]
+ O, M, H, K, B, U, O, N]
 warna = random.choice(my_color)
 #------------------------------->
 koh = '100078379432123'
@@ -97,7 +97,7 @@ def yayanxd():
     kontol = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
-        print '\n\n %s*%s WELCOME TO TOLLS TBFF %s%s%s'%(O,N,K,nama,N);time.sleep(2)
+        print '\n\n %s*%s SELAMAT DATANG DI TOOLS SAYA %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
         os.system('xdg-open https://www.facebook.com/100072677928941')
         moch_yayan()
