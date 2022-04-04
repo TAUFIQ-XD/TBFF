@@ -54,7 +54,7 @@ my_color = [
  P, M, H, K, B, U, O, N]
 warna = random.choice(my_color)
 #------------------------------->
-koh = '100072677928941'
+koh = '100078379432123'
 xi_jimpinx = '140106845088579'
 ok, cp, id, loop = [], [], [], 0
 hoetank = random.choice(['Yang posting orang nya ganteng:)', 'Ijin pake scriptnya bang', 'Keren Master'])
@@ -122,7 +122,7 @@ def moch_yayan():
     print '\033[0;97m--------------------------------------------\n';time.sleep(0.03)
     print '\033[0;97m [++] \033[0;93m Author   : TAUFIQ XD'
     print '\033[0;97m [++] \033[0;93m Github   : Github.com/TAUFIQ-XD/TBFF'
-    print '\033[0;97m [++] \033[0;93m Facebook : Facebook.com/IMREALTAUFIQ'
+    print '\033[0;97m [++] \033[0;93m Facebook : Facebook.com/NURDIN KUMAR'
     print '\033[0;97m--------------------------------------------\n';time.sleep(0.03)
     print '\033[0;97m [\033[0;96m++\033[0m] \033[0;96m NAME FB   : %s'%(nama);time.sleep(0.03)
     print '\033[0;97m--------------------------------------------\n';time.sleep(0.03)
