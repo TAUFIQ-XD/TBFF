@@ -51,7 +51,7 @@ U = '\x1b[1;95m' # UNGU
 O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
 my_color = [
- O, M, H, K, B, U, O, N]
+ P, M, H, K, B, U, O, N]
 warna = random.choice(my_color)
 #------------------------------->
 koh = '100078379432123'
