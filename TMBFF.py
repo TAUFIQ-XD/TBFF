@@ -120,7 +120,7 @@ def moch_yayan():
     os.system('clear')
     print logo
     print '\033[0;97m--------------------------------------------\n';time.sleep(0.03)
-    print '\033[0;97m [++] \033[0;93m Author   : TAUFIQURRAHMAN'
+    print '\033[0;97m [++] \033[0;93m Author   : TAUFIQ XD'
     print '\033[0;97m [++] \033[0;93m Github   : Github.com/TAUFIQ-XD/TBFF'
     print '\033[0;97m [++] \033[0;93m Facebook : Facebook.com/IMREALTAUFIQ'
     print '\033[0;97m--------------------------------------------\n';time.sleep(0.03)
